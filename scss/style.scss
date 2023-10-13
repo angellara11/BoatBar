@@ -1,18 +1,19 @@
-// $primary: #111;
-// $secondary: #2d2e34;
-// $terciary: #353841;
-// $theme-colors: (
-//   "primary":    $primary,
-//   "secondary":  $secondary,
-//   "terciary":    $terciary,
-//   "light":      $light,
-//   "info":       $info,
-//   "warning":    $warning,
-//   "danger":     $danger,
-//   "dark":       $dark
-// );
-@import "../node_modules/bootstrap/scss/bootstrap"
-
+$primary: #111;
+$secondary: #2d2e34;
+$terciary: #353841;
+$light: #ffffff;
+$theme-colors: (
+    "primary":    $primary,
+    "secondary":  $secondary,
+    "terciary":    $terciary,
+    "light":      $light,
+    //   "info":       $info,
+    //   "warning":    $warning,
+    //   "danger":     $danger,
+    //   "dark":       $dark
+    );
+    @import "../node_modules/bootstrap/scss/bootstrap"
+    
 // * {
 //   margin: 0;
 //   padding: 0;
