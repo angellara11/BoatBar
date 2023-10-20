@@ -11479,5 +11479,34 @@ textarea.form-control-lg {
     display: none !important;
   }
 }
+body {
+  font-family: "Poppins", sans-serif;
+}
+
+.brand {
+  width: 12rem;
+  height: auto;
+}
+
+.card-product {
+  display: flex;
+  justify-content: center;
+  position: relative;
+  background-color: #353841;
+  border-radius: 15px 15px 65px 15px;
+  width: calc(50% - 0.75rem);
+  height: 9.9rem;
+  padding: 1.5rem;
+}
+@media (min-width: 578px) {
+  .card-product {
+    width: calc(33% - 0.9rem);
+  }
+}
+@media (min-width: 768px) {
+  .card-product {
+    width: calc(25% - 1.125rem);
+  }
+}
 
 /*# sourceMappingURL=style.css.map */
